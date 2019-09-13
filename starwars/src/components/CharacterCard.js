@@ -8,7 +8,9 @@ const Card = styled.div`
     height: 420px;
     padding 5px;
     margin-left: 600px;
+    background-color: blue;
 `
+
 
 function CharacterCard(props) {
     return (

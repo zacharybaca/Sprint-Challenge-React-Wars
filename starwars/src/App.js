@@ -25,9 +25,11 @@ useEffect(() => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+    <div className="card-container">
       {character.map(person => {
         return <CharacterCard person={person} key={person.name}/>
       })}
+    </div>
     </div>
   );
 }
